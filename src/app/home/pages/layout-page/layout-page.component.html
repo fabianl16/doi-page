@@ -1,0 +1,61 @@
+<div class="hero_area">
+    <div class="hero_bg_box">
+        <div class="img-box">
+            <img [src]="backgroundSource" alt="imagen">
+        </div>
+    </div>
+    <header class="header_section">
+        <div class="header_top">
+            <div class="container-fluid">
+                <div class="contact_link-container">
+                    <a class="contact_link1">
+                        <i class="pi pi-map-marker"></i>
+                        <span>DOI, Los Cabos</span>
+                    </a>
+                    <a class="contact_link2">
+                        <i class="pi pi pi-phone"></i>
+                        <span>Llamanos: Tel (624) 143 06 54 / 143 08 17</span>
+                    </a>
+                    <a class="contact_link3">
+                        <i class="pi pi-envelope"></i>
+                        <span>aleyva@doiloscabos.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a routerLink="" class="navbar-brand">
+                        <span>DOI, LOS CABOS</span>
+                    </a>
+                    <button class="navbar-toggler" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" 
+                            aria-label="Toggle navigation">
+                        <span class=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li 
+                                *ngFor="let menuItem of menuItems"
+                                class="nav-item"
+                                routerLinkActive="active">
+                                    <a class="nav-link" [routerLink]="menuItem.route">
+                                        {{ menuItem.label }}
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <router-outlet></router-outlet>
+</div>
+
+
+
