@@ -8,6 +8,8 @@ import { ServicesPageComponent } from './pages/services-page/services-page.compo
 import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
+import { HideHeaderTopDirective } from './directives/hide-header-top.directive';
+import { RedimensionHeaderBottomDirective } from './directives/redimension-header-bottom.directive';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
     ServicesPageComponent,
     TeamPageComponent,
     ContactPageComponent,
-    LayoutPageComponent
+    LayoutPageComponent,
+    HideHeaderTopDirective,
+    RedimensionHeaderBottomDirective
   ],
   imports: [
     CommonModule,
