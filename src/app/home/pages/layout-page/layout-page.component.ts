@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core';
 import { ImagesFromFolderService } from '../../services/images-from-folder.service';
 import { MenuItem } from '../../interfaces';
 
@@ -13,7 +13,7 @@ export class LayoutPageComponent implements OnInit{
 
   public backgroundSource: string = '';
   public menuItems: MenuItem[] = [];
-  
+  @ViewChild('navbarTogglerButton') navbarTogglerButton!: ElementRef<HTMLElement>;
   ngOnInit(): void {
     this.setEnvireonment();
   }
@@ -21,7 +21,6 @@ export class LayoutPageComponent implements OnInit{
   setEnvireonment(){
     const url = this.imageUrlService.getImagesUrl('layoutBackground');
     this.backgroundSource = url[0];
-
     this.menuItems = [
       {
         label:'Home',
@@ -49,6 +48,13 @@ export class LayoutPageComponent implements OnInit{
         route:'contact'
       }
     ]
+  }
+
+  closeNavbar(){
+    if( !this.navbarTogglerButton )return;
+    if (window.innerWidth <= 768) {
+      this.navbarTogglerButton.nativeElement.click();
+    }
   }
 
 }

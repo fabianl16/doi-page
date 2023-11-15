@@ -5,7 +5,7 @@
         </div>
     </div>
     <header class="header_section">
-        <div class="header_top" hideHeaderTop>
+        <div class="header_top" scroll>
             <div class="container-fluid">
                 <div class="contact_link-container">
                     <a class="contact_link1">
@@ -23,13 +23,14 @@
                 </div>
             </div>
         </div>
-        <div class="header_bottom" redimensionHeaderBottom>
+        <div class="header_bottom" scroll>
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg custom_nav-container">
+                <nav class="navbar navbar-expand-lg custom_nav-container" scroll>
                     <a routerLink="" class="navbar-brand">
                         <span>DOI, LOS CABOS</span>
                     </a>
-                    <button class="navbar-toggler"
+                    <button #navbarTogglerButton
+                            class="navbar-toggler"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent"
@@ -39,10 +40,11 @@
                         <span class=""></span>
                     </button>
                     <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav" scroll>
                             <li
                                 *ngFor="let menuItem of menuItems"
                                 class="nav-item"
+                                (click)="closeNavbar()"
                                 routerLinkActive="active">
                                     <a class="nav-link" [routerLink]="menuItem.route">
                                         {{ menuItem.label }}

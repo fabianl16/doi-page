@@ -110,6 +110,11 @@ a, a:hover, a:focus {
     padding: 0;
 }
 
+.navbar.navbar-expand-lg.custom_nav-container{
+    height: 74px;
+    transition: all 1s;
+}
+
 .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
