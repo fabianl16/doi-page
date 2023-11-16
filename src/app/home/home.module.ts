@@ -12,6 +12,7 @@ import { ScrollDirective } from './directives/scroll.directive';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
+import { GalleriaComponent } from './components/galleria/galleria.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
     LayoutPageComponent,
     ScrollDirective,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    GalleriaComponent
   ],
   imports: [
     CommonModule,

@@ -10,6 +10,19 @@ export class ImagesFromFolderService {
       layoutBackground: [
         `assets/pictures/${ folderName }/1.png`,
       ],
+      us: [
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/2.jpg`,
+        `assets/pictures/${ folderName }/3.jpg`,
+      ],
+      visionMision: [
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/2.jpg`,
+        `assets/pictures/${ folderName }/3.jpg`,
+      ],
+      ubication: [
+        `assets/pictures/${ folderName }/1.jpg`,
+      ],
     };
     return imageMap[folderName] || [];
   }
