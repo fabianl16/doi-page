@@ -36,11 +36,12 @@
                             data-bs-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent"
                             aria-expanded="false"
-                            aria-label="Toggle navigation">
+                            aria-label="Toggle navigation"
+                            (click)="toggleOpacity()">
                         <span class=""></span>
                     </button>
                     <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-                        <ul class="navbar-nav" scroll>
+                        <ul class="navbar-nav">
                             <li
                                 *ngFor="let menuItem of menuItems"
                                 class="nav-item"
@@ -56,8 +57,13 @@
             </div>
         </div>
     </header>
-    <router-outlet></router-outlet>
+    <section [style.opacity]="contentOpacity" class="content">
+        <div  class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+    </section>
 </div>
+<footerComponent></footerComponent>
 
 
 

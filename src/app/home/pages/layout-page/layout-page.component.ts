@@ -13,7 +13,9 @@ export class LayoutPageComponent implements OnInit{
 
   public backgroundSource: string = '';
   public menuItems: MenuItem[] = [];
+  public clickOnMenu: boolean = true;
   @ViewChild('navbarTogglerButton') navbarTogglerButton!: ElementRef<HTMLElement>;
+  public contentOpacity: number = 1;
   ngOnInit(): void {
     this.setEnvireonment();
   }
@@ -55,6 +57,10 @@ export class LayoutPageComponent implements OnInit{
     if (window.innerWidth <= 768) {
       this.navbarTogglerButton.nativeElement.click();
     }
+  }
+
+  toggleOpacity(){
+    this.contentOpacity = (this.contentOpacity === 1) ? 0 : 1;
   }
 
 }

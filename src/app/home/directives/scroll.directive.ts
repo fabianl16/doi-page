@@ -39,7 +39,7 @@ export class ScrollDirective {
           this.htmlElement.nativeElement.style.top = 'auto';
           break;
         case 'navbar navbar-expand-lg custom_nav-container':
-          this.htmlElement.nativeElement.style.height = '74px';
+          this.htmlElement.nativeElement.style.height = '69px';
           break;
       }
     }
