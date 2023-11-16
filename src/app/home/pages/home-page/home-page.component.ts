@@ -42,21 +42,16 @@ export class HomePageComponent implements OnInit{
       }
     ];
     this.responsiveOptions = [
-        {
-            breakpoint: '1199px',
-            numVisible: 1,
-            numScroll: 1
-        },
-        {
-            breakpoint: '991px',
-            numVisible: 1,
-            numScroll: 1
-        },
-        {
-            breakpoint: '767px',
-            numVisible: 1,
-            numScroll: 1
-        }
+      {
+        breakpoint: '1100px',
+        numVisible: 1,
+        numScroll: 1
+      },
+      {
+        breakpoint: '600px',
+        numVisible: 1,
+        numScroll: 1
+      }
     ];
   }
 

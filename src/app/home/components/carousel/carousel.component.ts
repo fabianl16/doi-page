@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CarouselItem, ResponsiveOptions } from '../../interfaces';
 
 @Component({
@@ -8,12 +8,9 @@ import { CarouselItem, ResponsiveOptions } from '../../interfaces';
 })
 export class CarouselComponent {
 
-  @Input()
-  public carouselItems!: CarouselItem[];
 
-  @Input()
-   public responsiveOptions?: ResponsiveOptions[];
+  @Input() public carouselItems!: CarouselItem[];
 
-
+  @Input() public responsiveOptions!: ResponsiveOptions[];
 
 }
