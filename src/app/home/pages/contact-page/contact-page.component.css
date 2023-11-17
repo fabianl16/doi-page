@@ -95,6 +95,73 @@
   object-fit: cover;
 }
 
+.form_container {
+  margin-right: 15px;
+}
+
+.form_container input {
+  width: 100%;
+  /* border: none; */
+  height: 70px;
+  margin-bottom: 35px;
+  /* outline: none; */
+  color: #101010;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.form_container input.message-box {
+  height: 120px;
+}
+
+.textArea{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form_container button {
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 55px;
+  background-color: #8eb83a;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: none;
+}
+
+.map_container {
+  height: 420px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 0;
+}
+
+.map_container .map {
+  height: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.btn_map_box{
+  position: absolute;
+  z-index: 1;
+  left: 60%;
+  bottom: 10%;
+}
+
+.btn_map_box button {
+  background-color: #8eb83a;
+}
+
 /* responsive */
 
 @media (max-width: 1120px) {}

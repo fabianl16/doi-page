@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import * as mapboxgl from 'mapbox-gl';
+(mapboxgl as any).accessToken = 'pk.eyJ1IjoiZHJlYWQ5ODc3IiwiYSI6ImNscDJ3ZjN1cTByMHAyaW9iMjZneWFwbTYifQ.x-tFzb9jbpyZFHDDhDPHqA';
+
 import { HomeRoutingModule } from './home-routing.module';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
@@ -13,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { GalleriaComponent } from './components/galleria/galleria.component';
+import { environment } from 'src/environments/environments';
 
 
 @NgModule({

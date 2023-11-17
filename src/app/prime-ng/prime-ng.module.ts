@@ -16,6 +16,8 @@ import { TabMenuModule }      from 'primeng/tabmenu';
 import { ToolbarModule }      from 'primeng/toolbar';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { ProgressBarModule } from 'primeng/progressbar';
+import { InputTextModule } from 'primeng/inputtext';
+import { InputTextareaModule } from 'primeng/inputtextarea';
 
 
 
@@ -36,7 +38,9 @@ import { ProgressBarModule } from 'primeng/progressbar';
     DividerModule,
     ScrollTopModule,
     ProgressSpinnerModule,
-    ProgressBarModule
+    ProgressBarModule,
+    InputTextModule,
+    InputTextareaModule
   ]
 })
 export class PrimeNgModule { }
