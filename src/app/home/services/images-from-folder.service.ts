@@ -30,6 +30,11 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/4.jpg`,
         `assets/pictures/${ folderName }/5.jpg`,
       ],
+      team: [
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/1.jpg`,
+      ],
     };
     return imageMap[folderName] || [];
   }
