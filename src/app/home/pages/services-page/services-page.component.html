@@ -4,30 +4,64 @@
             <div class="heading_container heading_center">
                 <h2>Nuestros servicios</h2>
                 <p>
-                    En BBINCO, comprendemos que la industria de hotelería y residencias exige soluciones
-                    tecnológicas excepcionales para brindar experiencias superiores a sus huéspedes y residentes.
-                    Nuestros servicios están diseñados para ayudarle a sobresalir en este competitivo mercado
+                    En DOI Los Cabos, nos esforzamos por convertir tus ideas en realidades tangibles. Ya
+                    sea que estés buscando construir una nueva propiedad, renovar un espacio existente o necesitar
+                    asesoramiento experto, estamos aquí para ayudarte en cada paso del camino. Descubre cómo podemos
+                    hacer realidad tu visión hoy mismo.
                 </p>
             </div>
             <div class="row g-4">
-                <div class="col-lg-4 mx-auto service-item-top" routerLink="hotels">
+                <div class="col-lg-4 mx-auto service-item-top" routerLink="residence">
                     <div class="img-box overflow-hidden">
-                        <img src="assets/pictures/services/service-1.jpg" routerLink="hotels" alt="">
+                        <img [src]="servicesImages[0]" routerLink="residence" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between p-4">
-                        <h5 class="text-truncate me-3 mb-0" routerLink="hotels">Hoteles</h5>
-                        <a class="btn custom-btn flex-shrink-0" routerLink="hotels">
+                        <h5 class="text-truncate me-3 mb-0" routerLink="residence">Vivienda Residencial</h5>
+                        <a class="btn custom-btn flex-shrink-0" routerLink="residence">
                             <i class="pi pi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 mx-auto service-item-top" routerLink="residences">
+                <div class="col-lg-4 mx-auto service-item-top" routerLink="condos">
                     <div class="img-box overflow-hidden">
-                        <img src="assets/pictures/services/service-2.jpg" routerLink="residences" alt="">
+                        <img [src]="servicesImages[1]" routerLink="condos" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between p-4">
-                        <h5 class="text-truncate me-3 mb-0" routerLink="residences">Residencias</h5>
-                        <a class="btn custom-btn flex-shrink-0" routerLink="residences">
+                        <h5 class="text-truncate me-3 mb-0" routerLink="condos">Residencial Condominios</h5>
+                        <a class="btn custom-btn flex-shrink-0" routerLink="condos">
+                            <i class="pi pi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mx-auto service-item-top" routerLink="hotel">
+                    <div class="img-box overflow-hidden">
+                        <img [src]="servicesImages[2]" routerLink="hotel" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between p-4">
+                        <h5 class="text-truncate me-3 mb-0" routerLink="hotel">Hotelería y tiempo compartido</h5>
+                        <a class="btn custom-btn flex-shrink-0" routerLink="hotel">
+                            <i class="pi pi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mx-auto service-item-top" routerLink="urbanization">
+                    <div class="img-box overflow-hidden">
+                        <img [src]="servicesImages[3]" routerLink="urbanization" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between p-4">
+                        <h5 class="text-truncate me-3 mb-0" routerLink="urbanization">Infraestructura y Urbanización</h5>
+                        <a class="btn custom-btn flex-shrink-0" routerLink="urbanization">
+                            <i class="pi pi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mx-auto service-item-top" routerLink="market">
+                    <div class="img-box overflow-hidden">
+                        <img [src]="servicesImages[4]" routerLink="market" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between p-4">
+                        <h5 class="text-truncate me-3 mb-0" routerLink="market">Mercado, centros y parques</h5>
+                        <a class="btn custom-btn flex-shrink-0" routerLink="market">
                             <i class="pi pi-arrow-right"></i>
                         </a>
                     </div>

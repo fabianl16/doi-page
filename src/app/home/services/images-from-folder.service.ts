@@ -23,6 +23,13 @@ export class ImagesFromFolderService {
       ubication: [
         `assets/pictures/${ folderName }/1.jpg`,
       ],
+      services: [
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/2.jpg`,
+        `assets/pictures/${ folderName }/3.jpg`,
+        `assets/pictures/${ folderName }/4.jpg`,
+        `assets/pictures/${ folderName }/5.jpg`,
+      ],
     };
     return imageMap[folderName] || [];
   }
