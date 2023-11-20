@@ -1,0 +1,26 @@
+<p-galleria
+  [value]="imagesUrls"
+  [showIndicators]="true"
+  [showThumbnails]="false"
+  [responsiveOptions]="responsiveOptions"
+  [containerStyle]="{ 'max-width': '640px' }">
+  <ng-template pTemplate="item" let-item>
+    <div class="img-box">
+      <img class="not-full-screen" (click)="displayBasic = true" [src]="item"/>
+    </div>
+  </ng-template>
+</p-galleria>
+
+<p-galleria
+  	[value]="imagesUrls"
+    [(visible)]="displayBasic"
+    [responsiveOptions]="responsiveOptions"
+    [containerStyle]="{ 'max-width': '850px' }"
+    [numVisible]="7"
+    [circular]="true"
+    [fullScreen]="true"
+    [showItemNavigators]="true" [showThumbnails]="false">
+  <ng-template pTemplate="item" let-item>
+      <img class="full-screen" [src]="item"/>
+  </ng-template>
+</p-galleria>

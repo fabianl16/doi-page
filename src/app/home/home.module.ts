@@ -23,6 +23,7 @@ import { CondosPageComponent } from './pages/condos-page/condos-page.component';
 import { UrbanizationPageComponent } from './pages/urbanization-page/urbanization-page.component';
 import { MarketPageComponent } from './pages/market-page/market-page.component';
 import { FlipImageComponent } from './components/flip-image/flip-image.component';
+import { GalleriaFullScreenComponent } from './components/galleria-full-screen/galleria-full-screen.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { FlipImageComponent } from './components/flip-image/flip-image.component
     CondosPageComponent,
     UrbanizationPageComponent,
     MarketPageComponent,
-    FlipImageComponent
+    FlipImageComponent,
+    GalleriaFullScreenComponent
   ],
   imports: [
     CommonModule,

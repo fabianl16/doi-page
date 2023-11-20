@@ -9,33 +9,32 @@ import { ImagesFromFolderService } from '../../services/images-from-folder.servi
 export class ResidencesPageComponent implements OnInit{
 
   private imagesFromFolderService: ImagesFromFolderService = inject( ImagesFromFolderService );
-  
-  public tresSantosImages: string [] = [];
 
-  public responsiveOptions: any[] | undefined;
-  public displayBasic: boolean | undefined;
+  public tresSantosImages:    string    [] = [];
+  public monteBelloImages:    string    [] = [];
+  public residence315Images:  string    [] = [];
+  public lightHouseImages:    string    [] = [];
+  public copalaImages:        string    [] = [];
+  public coronadoImages:      string    [] = [];
+  public mavilaImages:        string    [] = [];
+  public bechClubImages:      string    [] = [];
+
 
   ngOnInit(): void {
     this.setImages();
   }
 
   setImages(){
-    this.tresSantosImages = this.imagesFromFolderService.getImagesUrl('tresSantos');
 
-    this.responsiveOptions = [
-      {
-          breakpoint: '1024px',
-          numVisible: 5
-      },
-      {
-          breakpoint: '768px',
-          numVisible: 3
-      },
-      {
-          breakpoint: '560px',
-          numVisible: 1
-      }
-  ];
+    this.tresSantosImages     = this.imagesFromFolderService.getImagesUrl('tresSantos');
+    this.monteBelloImages     = this.imagesFromFolderService.getImagesUrl('monteBello');
+    this.residence315Images   = this.imagesFromFolderService.getImagesUrl('residence315');
+    this.lightHouseImages     = this.imagesFromFolderService.getImagesUrl('lightHouse');
+    this.copalaImages         = this.imagesFromFolderService.getImagesUrl('copala');
+    this.coronadoImages       = this.imagesFromFolderService.getImagesUrl('coronado');
+    this.mavilaImages         = this.imagesFromFolderService.getImagesUrl('mavila');
+    this.bechClubImages       = this.imagesFromFolderService.getImagesUrl('beachClub');
+
   }
-  
+
 }
