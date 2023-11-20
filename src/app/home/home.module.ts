@@ -17,6 +17,12 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { GalleriaComponent } from './components/galleria/galleria.component';
 import { environment } from 'src/environments/environments';
+import { ResidencesPageComponent } from './pages/residences-page/residences-page.component';
+import { HotelPageComponent } from './pages/hotel-page/hotel-page.component';
+import { CondosPageComponent } from './pages/condos-page/condos-page.component';
+import { UrbanizationPageComponent } from './pages/urbanization-page/urbanization-page.component';
+import { MarketPageComponent } from './pages/market-page/market-page.component';
+import { FlipImageComponent } from './components/flip-image/flip-image.component';
 
 
 @NgModule({
@@ -30,7 +36,13 @@ import { environment } from 'src/environments/environments';
     ScrollDirective,
     FooterComponent,
     CarouselComponent,
-    GalleriaComponent
+    GalleriaComponent,
+    ResidencesPageComponent,
+    HotelPageComponent,
+    CondosPageComponent,
+    UrbanizationPageComponent,
+    MarketPageComponent,
+    FlipImageComponent
   ],
   imports: [
     CommonModule,

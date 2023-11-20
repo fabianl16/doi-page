@@ -35,6 +35,12 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/1.jpg`,
         `assets/pictures/${ folderName }/1.jpg`,
       ],
+      tresSantos: [
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/2.jpg`,
+        `assets/pictures/${ folderName }/3.jpg`,
+        `assets/pictures/${ folderName }/4.jpg`,
+      ],
     };
     return imageMap[folderName] || [];
   }
