@@ -14,23 +14,24 @@
         <div class="col-lg-4 mx-auto col-md-5">
           <div class="form_container">
             <form action="">
-              
+
               <span class="p-float-label">
-                <input pInputText id="name"/>
+                <input pInputText id="name" />
                 <label htmlFor="name">Tu nombre aquí</label>
               </span>
 
               <span class="p-float-label">
-                <input pInputText id="phone"/>
+                <input pInputText id="phone" />
                 <label htmlFor="phone">Número telefónico</label>
               </span>
 
               <span class="p-float-label">
-                <input pInputText id="email"/>
+                <input pInputText id="email" />
                 <label htmlFor="email">Correo electrónico</label>
               </span>
               <span class="p-float-label">
-                <textarea class="textArea" id="float-input" rows="5" cols="30" pInputTextarea [autoResize]="true"></textarea>
+                <textarea class="textArea" id="float-input" rows="5" cols="30" pInputTextarea
+                  [autoResize]="true"></textarea>
                 <label for="float-input">Escribe aqui tu solicitud</label>
               </span>
 
@@ -42,7 +43,7 @@
         </div>
         <div class="col-lg-6 mx-auto px-0">
           <div class="map_container">
-            <div class="map"#map>
+            <div class="map" #map>
               <div class="btn_map_box">
                 <p-button (onClick)="flyTo()" label="DOI LOS CABOS" icon="pi pi-map-marker"></p-button>
               </div>
@@ -53,74 +54,73 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-md-6 text-center mb-5">
-          <div class="col-md-12">
-              <div class="wrapper">
-                  <div class="row mb-5">
-                      <div class="col-md-3">
-                          <div class="dbox w-100 text-center">
-                              <div class="icon d-flex align-items-center justify-content-center">
-                                  <span class="pi pi-map-marker"></span>
-                              </div>
-                              <div class="text">
-                                  <p>
-                                      <span>Dirección:</span>
-                                      Col, Calle Sin Nombre, El Aguajito Manzana 07 Lote 02, 23443 San José del
-                                      Cabo, B.C.S.
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-3">
-                          <div class="dbox w-100 text-center">
-                              <div class="icon d-flex align-items-center justify-content-center">
-                                  <span class="pi pi-phone"></span>
-                              </div>
-                              <div class="text">
-                                  <p>
-                                      <span>Telefóno:</span>
-                                      +52 6241307357
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-3">
-                          <div class="dbox w-100 text-center">
-                              <div class="icon d-flex align-items-center justify-content-center">
-                                  <span class="pi pi-envelope"></span>
-                              </div>
-                              <div class="text">
-                                  <p>
-                                      <span>Email: </span>
-                                      <a href="">asist-comercial@bbinco.com</a>
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-3">
-                          <div class="dbox w-100 text-center">
-                              <div class="icon d-flex align-items-center justify-content-center">
-                                  <span class="pi pi-globe"></span>
-                              </div>
-                              <div class="text">
-                                  <p>
-                                      <span>Sitio Web: </span>
-                                      <a routerLink="">www.bbinco.com</a>
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
+        <div class="col-md-12">
+          <div class="wrapper">
+            <div class="row mb-5">
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="pi pi-map-marker"></span>
                   </div>
-              </div>
-              <div class="row no-gutters">
-                  <div class="col-md-5 d-flex align-items-center mx-auto">
-                      <div class="image-box">
-                          <img src="assets/pictures/mainLogobbinco.png" alt="">
-                      </div>
+                  <div class="text">
+                    <p>
+                      <span>Dirección:</span>
+                      Lázaro Cárdenas 2501 L | Super- 8
+                      El Médano Cabo San Lucas
+                    </p>
                   </div>
+                </div>
               </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="pi pi-phone"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      <span>Telefóno:</span>
+                       (624) 143 06 54 / 143 08 17
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="pi pi-envelope"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      <span>Email: </span>
+                      <a href="">info@doiloscabos.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="pi pi-globe"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      <span>Sitio Web: </span>
+                      <a routerLink="">www.doiloscabos.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="row no-gutters">
+            <div class="col-md-5 d-flex align-items-center mx-auto">
+              <div class="image-box">
+                <img src="assets/pictures/doi/logo.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
+    </div>
   </div>
 </section>
-
