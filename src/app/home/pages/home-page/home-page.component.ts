@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { CarouselItem, ResponsiveOptions } from '../../interfaces';
+import { fadeAnimation } from '../../animations/fade-animations';
 
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
+  animations: [fadeAnimation],
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit{

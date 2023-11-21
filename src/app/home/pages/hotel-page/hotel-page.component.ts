@@ -1,9 +1,11 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ImagesFromFolderService } from '../../services/images-from-folder.service';
+import { fadeAnimation } from '../../animations/fade-animations';
 
 @Component({
   selector: 'app-hotel-page',
   templateUrl: './hotel-page.component.html',
+  animations: [fadeAnimation],
   styleUrls: ['./hotel-page.component.css']
 })
 export class HotelPageComponent implements OnInit{

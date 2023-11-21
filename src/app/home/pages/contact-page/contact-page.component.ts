@@ -1,10 +1,12 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 
-import { LngLat, Map, Marker, Popup } from 'mapbox-gl'; 
+import { LngLat, Map, Marker, Popup } from 'mapbox-gl';
+import { fadeAnimation } from '../../animations/fade-animations';
 
 @Component({
   selector: 'app-contact-page',
   templateUrl: './contact-page.component.html',
+  animations: [fadeAnimation],
   styleUrls: ['./contact-page.component.css']
 })
 export class ContactPageComponent implements AfterViewInit, OnDestroy{
@@ -25,7 +27,7 @@ export class ContactPageComponent implements AfterViewInit, OnDestroy{
       container: this.divMap.nativeElement, // container ID
       style: 'mapbox://styles/mapbox/streets-v12', // style URL
       center: this.currentlngLat, // starting position [lng, lat]
-      zoom: this.zoom, 
+      zoom: this.zoom,
       minZoom: 3
       });
 
@@ -44,7 +46,7 @@ export class ContactPageComponent implements AfterViewInit, OnDestroy{
       this.zoom = this.map!.getZoom();
     });
 
-    this.map.on('zoomend',  (ev) =>{       
+    this.map.on('zoomend',  (ev) =>{
       if( this.map!.getZoom() < 18 ) return;
       this.map!.zoomTo(18);
     });

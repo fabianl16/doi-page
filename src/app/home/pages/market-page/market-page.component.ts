@@ -1,9 +1,11 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ImagesFromFolderService } from '../../services/images-from-folder.service';
+import { fadeAnimation } from '../../animations/fade-animations';
 
 @Component({
   selector: 'app-market-page',
   templateUrl: './market-page.component.html',
+  animations: [fadeAnimation],
   styleUrls: ['./market-page.component.css']
 })
 export class MarketPageComponent implements OnInit {
