@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path:'', 
+    path:'',
     loadChildren: () => import('./home/home.module').then( m => m.HomeModule),
   },
   {
@@ -12,8 +12,9 @@ const routes: Routes = [
   },
 ];
 
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash:true })],
+  imports: [RouterModule.forRoot(routes, { useHash:true, scrollPositionRestoration: "enabled" })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

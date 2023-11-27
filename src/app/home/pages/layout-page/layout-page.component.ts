@@ -25,24 +25,14 @@ export class LayoutPageComponent implements OnInit{
     this.backgroundSource = url[0];
     this.menuItems = [
       {
-        label:'Inicio',
+        label:'Nosotros',
         icon: 'pi pi-home',
         route:'home'
-      },
-      {
-        label:'Nosotros',
-        icon: 'pi pi-list',
-        route:'about'
       },
       {
         label:'Servicios',
         icon:'pi pi-microsoft',
         route:'services'
-      },
-      {
-        label:'Equipo',
-        icon: 'pi pi-users',
-        route:'team'
       },
       {
         label:'Contactanos',

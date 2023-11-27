@@ -20,9 +20,9 @@ export class HomePageComponent implements OnInit{
         title_span: "Edificando Futuros",
         paragraph: "Desde la concepción del proyecto hasta la entrega final, nuestro equipo de expertos se compromete a transformar tus sueños en una realidad tangible. Nos enorgullece ofrecer servicios de construcción que van más allá de las expectativas, creando espacios innovadores y duraderos.",
         buttons: [{
-          texto: "Nosotros",
+          texto: "Servicios",
           clase: "btn-1",
-          enlace: "/about"
+          enlace: "/services"
         },
         {
           texto: "Contactanos",
@@ -36,9 +36,9 @@ export class HomePageComponent implements OnInit{
         title_span: "Tu Visión, Nuestra Realidad",
         paragraph: "Somos una empresa de desarrollo integral que abraza cada proyecto con dedicación y experiencia, transformando ideas en estructuras sólidas y espacios acogedores.",
         buttons:  [{
-          texto: "Equipo",
+          texto: "Servicios",
           clase: "btn-1",
-          enlace: "/team"
+          enlace: "/services"
         }
       ]
       }

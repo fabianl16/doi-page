@@ -74,13 +74,13 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     min-width: 450px;
     transition: .5s;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .service-item-top img {
     padding: 10px;
     transition: .5s;
-    cursor: pointer;
+    /* cursor: pointer;+- */
 }
 
 .service-item-top:hover{
@@ -89,7 +89,7 @@
 
 .text-truncate {
     overflow: visible;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .custom-btn {

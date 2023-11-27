@@ -24,6 +24,7 @@ import { UrbanizationPageComponent } from './pages/urbanization-page/urbanizatio
 import { MarketPageComponent } from './pages/market-page/market-page.component';
 import { FlipImageComponent } from './components/flip-image/flip-image.component';
 import { GalleriaFullScreenComponent } from './components/galleria-full-screen/galleria-full-screen.component';
+import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { GalleriaFullScreenComponent } from './components/galleria-full-screen/g
     UrbanizationPageComponent,
     MarketPageComponent,
     FlipImageComponent,
-    GalleriaFullScreenComponent
+    GalleriaFullScreenComponent,
+    ScrollTopComponent
   ],
   imports: [
     CommonModule,
