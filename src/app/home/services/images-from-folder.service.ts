@@ -251,6 +251,14 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/4.jpg`,
         `assets/pictures/${ folderName }/5.jpg`,
       ],
+      valores:[
+        `assets/pictures/${ folderName }/compromiso.png`,
+        `assets/pictures/${ folderName }/excelencia.png`,
+        `assets/pictures/${ folderName }/integridad.png`,
+        `assets/pictures/${ folderName }/lealtad.png`,
+        `assets/pictures/${ folderName }/respeto.png`,
+        `assets/pictures/${ folderName }/trabajoduro.png`,
+      ],
     };
     return imageMap[folderName] || [];
   }

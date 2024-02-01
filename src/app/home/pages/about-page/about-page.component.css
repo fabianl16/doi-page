@@ -14,7 +14,7 @@
 
 .about_section .detail-box {
     background-color: #ffffff;
-    padding: 45px 25px;
+    padding: 9px 15px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
     position: relative;
     /* margin-left: -45px; */
@@ -131,6 +131,34 @@
     .sub_page .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
         padding-bottom: 15px;
     }
+}
+
+/* Puedes agregar reglas CSS adicionales si es necesario */
+.featured-block {
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+}
+.featured-block a{
+    text-decoration: none;
+}
+
+.featured-block-image {
+    width: 50px; /* Ancho fijo para las imágenes */
+    height: 50px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra el tamaño fijo */
+}
+
+.featured-block-text {
+    color: black;
+    font-size: medium;
+    margin-top: 20px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.hover-grow:hover {
+    transform: scale(1.09); 
+    transition: all 0.5s; 
 }
 
 @media (max-width: 768px) {

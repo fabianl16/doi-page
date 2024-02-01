@@ -13,6 +13,7 @@ export class AboutPageComponent implements OnInit{
   public imagesUs:            string[] = [];
   public imagesVisionMision:  string[] = [];
   public imagesUbication:     string[] = [];
+  public imagesValores:       string[] = [];
 
   private imagesFromFolderService: ImagesFromFolderService = inject( ImagesFromFolderService );
 
@@ -21,9 +22,10 @@ export class AboutPageComponent implements OnInit{
   }
 
   initImages(){
-    this.imagesUs = this.imagesFromFolderService.getImagesUrl('us');
+    this.imagesUs           = this.imagesFromFolderService.getImagesUrl('us');
     this.imagesVisionMision = this.imagesFromFolderService.getImagesUrl('visionMision');
-    this.imagesUbication = this.imagesFromFolderService.getImagesUrl('ubication');
+    this.imagesUbication    = this.imagesFromFolderService.getImagesUrl('ubication');
+    this.imagesValores      = this.imagesFromFolderService.getImagesUrl('valores');
   }
 
 }
