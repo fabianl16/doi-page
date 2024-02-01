@@ -256,6 +256,19 @@ a:focus {
     box-shadow: none;
 }
 
+.img-box img {
+    transition: transform 0.3s ease; /* Agrega una transición suave al cambio de tamaño */
+    max-width: 70%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.img-box:hover img {
+    transform: scale(1.3); /* Hace que la imagen crezca un 10% más */
+}
+
+
 
 /* RESPONSIVE */
 @media (max-width: 576px) {

@@ -20,6 +20,10 @@ export class ResidencesPageComponent implements OnInit{
   public coronadoImages:      string    [] = [];
   public mavilaImages:        string    [] = [];
   public bechClubImages:      string    [] = [];
+  public vistaMarImages:      string      [] = [];
+  public alvarImages:         string      [] = [];
+  public tramontiImages:      string      [] = [];
+  public campGolfImages:      string      [] = [];
 
 
   ngOnInit(): void {
@@ -36,6 +40,10 @@ export class ResidencesPageComponent implements OnInit{
     this.coronadoImages       = this.imagesFromFolderService.getImagesUrl('coronado');
     this.mavilaImages         = this.imagesFromFolderService.getImagesUrl('mavila');
     this.bechClubImages       = this.imagesFromFolderService.getImagesUrl('beachClub');
+    this.vistaMarImages     = this.imagesFromFolderService.getImagesUrl('vistaMar');
+    this.alvarImages        = this.imagesFromFolderService.getImagesUrl('alvar');
+    this.tramontiImages     = this.imagesFromFolderService.getImagesUrl('tramonti');
+    this.campGolfImages     = this.imagesFromFolderService.getImagesUrl('golfCamp');
 
   }
 

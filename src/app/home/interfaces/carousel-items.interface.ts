@@ -3,6 +3,7 @@ export interface CarouselItem {
     title_span:     string;
     paragraph:      string;
     buttons:        Boton[] | null | undefined;
+    imageUrl:       string;
 }
 
 export interface Boton {

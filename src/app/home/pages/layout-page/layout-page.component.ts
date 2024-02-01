@@ -9,11 +9,14 @@ import { MenuItem } from '../../interfaces';
 })
 export class LayoutPageComponent implements OnInit{
 
-  private imageUrlService = inject( ImagesFromFolderService );
+  private imageUrlService:ImagesFromFolderService = inject( ImagesFromFolderService );
 
   public backgroundSource: string = '';
   public menuItems: MenuItem[] = [];
-  public clickOnMenu: boolean = true;
+  public clickOnMenu:         boolean = true;
+  public logos:        string[] = [];
+
+
   @ViewChild('navbarTogglerButton') navbarTogglerButton!: ElementRef<HTMLElement>;
   public contentOpacity: number = 1;
   ngOnInit(): void {
@@ -22,6 +25,7 @@ export class LayoutPageComponent implements OnInit{
 
   setEnvireonment(){
     const url = this.imageUrlService.getImagesUrl('layoutBackground');
+    this.logos = this.imageUrlService.getImagesUrl('logos');
     this.backgroundSource = url[0];
     this.menuItems = [
       {

@@ -18,6 +18,7 @@ import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { ProgressBarModule } from 'primeng/progressbar';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { ImageModule } from 'primeng/image';
 
 
 
@@ -40,7 +41,8 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
     ProgressSpinnerModule,
     ProgressBarModule,
     InputTextModule,
-    InputTextareaModule
+    InputTextareaModule,
+    ImageModule
   ]
 })
 export class PrimeNgModule { }

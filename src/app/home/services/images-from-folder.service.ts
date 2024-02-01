@@ -259,6 +259,17 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/respeto.png`,
         `assets/pictures/${ folderName }/trabajoduro.png`,
       ],
+      sliderHome:[
+        `assets/pictures/${ folderName }/1.gif`,
+        `assets/pictures/${ folderName }/2.jpg`,
+        `assets/pictures/${ folderName }/3.jpg`,
+        `assets/pictures/${ folderName }/4.gif`,
+        `assets/pictures/${ folderName }/5.jpg`,
+      ],
+      logos:[
+        `assets/pictures/${ folderName }/1.png`,
+      ],
+      
     };
     return imageMap[folderName] || [];
   }

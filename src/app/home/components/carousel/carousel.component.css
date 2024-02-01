@@ -208,3 +208,33 @@
     max-width: 1170px;
   }
 }
+
+.slider_section { 
+  padding-top: 30px;/* Espaciado interno superior e inferior */
+}
+
+.img_container {
+  margin: 0 auto; /* Centra el contenedor */
+}
+
+.img-box {
+  width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+  height: 300px; /* Altura fija para la imagen */
+  overflow: hidden; /* Oculta el exceso de imagen que no quepa en el contenedor */
+}
+
+.img-box img {
+  width: 100%; /* Ajusta la imagen para que ocupe todo el ancho del contenedor */
+  height: 100%; /* Ajusta la altura al 100% del contenedor */
+  object-fit: cover; /* Escala la imagen para que cubra todo el contenedor, manteniendo la proporción y recortando el exceso */
+  border-radius: 10px;
+}
+
+.img-title{
+  padding-top: 20px;
+}
+
+.img-title strong {
+  font-size: 35px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
