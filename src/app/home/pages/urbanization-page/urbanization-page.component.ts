@@ -16,6 +16,11 @@ export class UrbanizationPageComponent implements OnInit{
   public centroHistoricoImages: string[] = [];
   public hidalgoImages: string[] = [];
   public leonaVicarioImages: string[] = [];
+  public palmasImages: string[] = [];
+  public arenalImages: string[] = [];
+  public campoRiveraImages: string[] = [];
+
+
 
   ngOnInit(): void {
     this.setImages();
@@ -26,6 +31,10 @@ export class UrbanizationPageComponent implements OnInit{
     this.centroHistoricoImages = this.imagesFromFolderService.getImagesUrl('centroHistorico');
     this.hidalgoImages = this.imagesFromFolderService.getImagesUrl('hidalgo');
     this.leonaVicarioImages = this.imagesFromFolderService.getImagesUrl('leonaVicario');
+    this.palmasImages = this.imagesFromFolderService.getImagesUrl('palmas');
+    this.arenalImages = this.imagesFromFolderService.getImagesUrl('arenal');
+    this.campoRiveraImages = this.imagesFromFolderService.getImagesUrl('campoRivera');
+    
 
   }
 
