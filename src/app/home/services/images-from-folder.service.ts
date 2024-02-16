@@ -159,8 +159,6 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/1.gif`,
         `assets/pictures/${ folderName }/2.gif`,
         `assets/pictures/${ folderName }/3.gif`,
-        `assets/pictures/${ folderName }/4.jpeg`,
-        `assets/pictures/${ folderName }/5.jpeg`,
         `assets/pictures/${ folderName }/6.jpeg`,
         `assets/pictures/${ folderName }/7.jpeg`,
         `assets/pictures/${ folderName }/8.jpeg`,
@@ -227,8 +225,6 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/2.jpg`,
       ],
       pinos:[
-        `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
         `assets/pictures/${ folderName }/4.jpg`,
         `assets/pictures/${ folderName }/5.jpg`,
@@ -237,19 +233,14 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/1.jpg`,
         `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
-        `assets/pictures/${ folderName }/4.jpg`,
       ],
       hidalgo:[
         `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
       ],
       leonaVicario:[
         `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
-        `assets/pictures/${ folderName }/4.jpg`,
-        `assets/pictures/${ folderName }/5.jpg`,
       ],
       valores:[
         `assets/pictures/${ folderName }/compromiso.png`,
@@ -269,7 +260,7 @@ export class ImagesFromFolderService {
       logos:[
         `assets/pictures/${ folderName }/1.png`,
       ],
-      
+
     };
     return imageMap[folderName] || [];
   }
