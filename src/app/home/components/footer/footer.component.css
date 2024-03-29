@@ -1,5 +1,5 @@
 .info_section {
-    background-color: #1c1c1c;
+    background-color: #5d5f6a;
     color: #ffff;
     padding: 75px 0 10px 0;
 }
@@ -71,7 +71,7 @@ a{
     -webkit-box-pack: center;
     justify-content: center;
     padding: 20px;
-    background-color: #1c1c1c;
+    background-color: #5d5f6a;
 }
 
 .footer_section p {

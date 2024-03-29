@@ -19,6 +19,8 @@ export class UrbanizationPageComponent implements OnInit{
   public palmasImages: string[] = [];
   public arenalImages: string[] = [];
   public campoRiveraImages: string[] = [];
+  public contituyentesImages: string[] = [];
+
 
 
 
@@ -34,7 +36,7 @@ export class UrbanizationPageComponent implements OnInit{
     this.palmasImages = this.imagesFromFolderService.getImagesUrl('palmas');
     this.arenalImages = this.imagesFromFolderService.getImagesUrl('arenal');
     this.campoRiveraImages = this.imagesFromFolderService.getImagesUrl('campoRivera');
-    
+    this.contituyentesImages = this.imagesFromFolderService.getImagesUrl('constituyentes');
 
   }
 

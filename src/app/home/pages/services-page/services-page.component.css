@@ -117,6 +117,13 @@
     object-fit: cover;
 }
 
+.list-group li {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.list-group li:hover {
+    color: #1f53a1; /* Cambia el color de texto al pasar el cursor sobre el elemento */
+}
 @media (max-width: 768px) {
     .layout_padding {
         padding-top: 0;

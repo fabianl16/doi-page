@@ -53,11 +53,11 @@ export class ImagesFromFolderService {
       ],
       residence315: [
         `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.jpg`,
-        `assets/pictures/${ folderName }/3.jpg`,
-        `assets/pictures/${ folderName }/4.jpg`,
-        `assets/pictures/${ folderName }/5.jpg`,
-        `assets/pictures/${ folderName }/6.jpg`,
+        // `assets/pictures/${ folderName }/2.jpg`,
+        // `assets/pictures/${ folderName }/3.jpg`,
+        // `assets/pictures/${ folderName }/4.jpg`,
+        // `assets/pictures/${ folderName }/5.jpg`,
+        // `assets/pictures/${ folderName }/6.jpg`,
         `assets/pictures/${ folderName }/7.jpg`,
       ],
       lightHouse: [
@@ -79,6 +79,9 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/6.jpg`,
         `assets/pictures/${ folderName }/7.gif`,
         `assets/pictures/${ folderName }/8.gif`,
+        `assets/pictures/${ folderName }/9.jpg`,
+        `assets/pictures/${ folderName }/10.JPG`,
+        `assets/pictures/${ folderName }/11.JPG`,
       ],
       coronado: [
         `assets/pictures/${ folderName }/1.jpg`,
@@ -86,6 +89,10 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/3.jpg`,
         `assets/pictures/${ folderName }/4.jpg`,
         `assets/pictures/${ folderName }/5.jpg`,
+        `assets/pictures/${ folderName }/6.JPG`,
+        `assets/pictures/${ folderName }/7.JPG`,
+        `assets/pictures/${ folderName }/8.JPG`,
+        `assets/pictures/${ folderName }/9.JPG`,
       ],
       mavila: [
         `assets/pictures/${ folderName }/1.jpg`,
@@ -96,6 +103,9 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/6.JPG`,
         `assets/pictures/${ folderName }/7.JPG`,
         `assets/pictures/${ folderName }/8.jpg`,
+        `assets/pictures/${ folderName }/9.JPG`,
+        `assets/pictures/${ folderName }/10.JPG`,
+        `assets/pictures/${ folderName }/11.jpg`,
       ],
       beachClub: [
         `assets/pictures/${ folderName }/1.JPG`,
@@ -106,6 +116,9 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/6.jpg`,
         `assets/pictures/${ folderName }/7.jpg`,
         `assets/pictures/${ folderName }/8.jpg`,
+        `assets/pictures/${ folderName }/9.gif`,
+        `assets/pictures/${ folderName }/10.JPG`,
+        `assets/pictures/${ folderName }/11.JPG`,
       ],
       vistaMar: [
         `assets/pictures/${ folderName }/1.jpg`,
@@ -124,6 +137,10 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/6.gif`,
         `assets/pictures/${ folderName }/7.gif`,
         `assets/pictures/${ folderName }/8.gif`,
+        `assets/pictures/${ folderName }/9.png`,
+        `assets/pictures/${ folderName }/10.png`,
+        `assets/pictures/${ folderName }/11.png`,
+        `assets/pictures/${ folderName }/12.png`,
       ],
       tramonti: [
         `assets/pictures/${ folderName }/1.jpg`,
@@ -134,6 +151,11 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/6.jpg`,
         `assets/pictures/${ folderName }/7.gif`,
         `assets/pictures/${ folderName }/8.png`,
+        `assets/pictures/${ folderName }/9.png`,
+        `assets/pictures/${ folderName }/10.png`,
+        `assets/pictures/${ folderName }/11.png`,
+        `assets/pictures/${ folderName }/12.gif`,
+        `assets/pictures/${ folderName }/13.jpg`,
       ],
       golfCamp: [
         `assets/pictures/${ folderName }/1.JPG`,
@@ -142,12 +164,13 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/4.png`,
         `assets/pictures/${ folderName }/5.jpg`,
         `assets/pictures/${ folderName }/6.jpg`,
+        `assets/pictures/${ folderName }/7.JPG`,
+        `assets/pictures/${ folderName }/8.jpg`,
+        `assets/pictures/${ folderName }/9.png`,
+        `assets/pictures/${ folderName }/10.png`,
       ],
       arenal: [
-        `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
-        `assets/pictures/${ folderName }/4.jpg`,
       ],
       campoRivera: [
         `assets/pictures/${ folderName }/1.jpg`,
@@ -178,12 +201,13 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/6.jpg`,
         `assets/pictures/${ folderName }/7.gif`,
         `assets/pictures/${ folderName }/8.gif`,
+        `assets/pictures/${ folderName }/9.JPG`,
+        `assets/pictures/${ folderName }/10.png`,
+        `assets/pictures/${ folderName }/11.png`,
       ],
       emeraldBay: [
         `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
-        `assets/pictures/${ folderName }/4.jpg`,
         `assets/pictures/${ folderName }/5.jpg`,
       ],
       puebloBonito: [
@@ -191,6 +215,7 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
         `assets/pictures/${ folderName }/4.jpg`,
+        `assets/pictures/${ folderName }/5.JPG`,
       ],
       puebloPacifica: [
         `assets/pictures/${ folderName }/1.JPG`,
@@ -199,6 +224,7 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/4.JPG`,
         `assets/pictures/${ folderName }/5.jpg`,
         `assets/pictures/${ folderName }/6.jpg`,
+        `assets/pictures/${ folderName }/7.png`,
       ],
       novaHispania: [
         `assets/pictures/${ folderName }/1.JPG`,
@@ -208,26 +234,20 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/5.jpg`,
         `assets/pictures/${ folderName }/6.jpg`,
         `assets/pictures/${ folderName }/7.jpg`,
-
+        `assets/pictures/${ folderName }/8.JPG`,
+        `assets/pictures/${ folderName }/9.JPG`,
       ],
       puebloBonitoSinaloa:[
-        `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.jpg`,
         `assets/pictures/${ folderName }/3.jpg`,
         `assets/pictures/${ folderName }/4.jpg`,
-        `assets/pictures/${ folderName }/5.jpg`,
-        `assets/pictures/${ folderName }/6.jpg`,
-        `assets/pictures/${ folderName }/7.jpg`,
-        `assets/pictures/${ folderName }/8.jpg`,
       ],
       hotelLeblanc:[
         `assets/pictures/${ folderName }/1.jpg`,
         `assets/pictures/${ folderName }/2.jpg`,
       ],
       pinos:[
-        `assets/pictures/${ folderName }/3.jpg`,
-        `assets/pictures/${ folderName }/4.jpg`,
-        `assets/pictures/${ folderName }/5.jpg`,
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/2.jpg`,
       ],
       centroHistorico:[
         `assets/pictures/${ folderName }/1.jpg`,
@@ -251,20 +271,27 @@ export class ImagesFromFolderService {
         `assets/pictures/${ folderName }/trabajoduro.png`,
       ],
       sliderHome:[
-        `assets/pictures/${ folderName }/1.gif`,
+        `assets/pictures/${ folderName }/1.png`,
         `assets/pictures/${ folderName }/2.jpg`,
-        `assets/pictures/${ folderName }/3.jpg`,
+        `assets/pictures/${ folderName }/3.png`,
         `assets/pictures/${ folderName }/4.gif`,
         `assets/pictures/${ folderName }/5.jpg`,
       ],
       logos:[
-        `assets/pictures/${ folderName }/1.jpeg`,
+        `assets/pictures/${ folderName }/1.png`,
       ],
       laundry:[
         `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/2.jpg`,
+        `assets/pictures/${ folderName }/3.jpg`,
+        `assets/pictures/${ folderName }/4.jpg`,
       ],
       asistenciaSocial:[
         `assets/pictures/${ folderName }/1.jpg`,
+      ],
+      constituyentes:[
+        `assets/pictures/${ folderName }/1.jpg`,
+        `assets/pictures/${ folderName }/2.jpg`,
       ],
 
     };
