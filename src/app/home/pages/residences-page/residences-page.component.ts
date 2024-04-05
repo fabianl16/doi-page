@@ -24,6 +24,8 @@ export class ResidencesPageComponent implements OnInit{
   public alvarImages:         string      [] = [];
   public tramontiImages:      string      [] = [];
   public campGolfImages:      string      [] = [];
+  public tramontiParadisoImages:      string      [] = [];
+
 
 
   ngOnInit(): void {
@@ -44,6 +46,7 @@ export class ResidencesPageComponent implements OnInit{
     this.alvarImages        = this.imagesFromFolderService.getImagesUrl('alvar');
     this.tramontiImages     = this.imagesFromFolderService.getImagesUrl('tramonti');
     this.campGolfImages     = this.imagesFromFolderService.getImagesUrl('golfCamp');
+    this.tramontiParadisoImages = this.imagesFromFolderService.getImagesUrl('tramontiParadiso');
 
   }
 
