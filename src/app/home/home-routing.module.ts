@@ -21,7 +21,7 @@ const routes: Routes = [
       { path: 'about', component: AboutPageComponent},
       { path: 'contact', component: ContactPageComponent},
       { path: 'services', component: ServicesPageComponent},
-      { path: 'services/condos', component: CondosPageComponent},
+      { path: 'services/development', component: CondosPageComponent},
       { path: 'services/hotel', component: HotelPageComponent},
       { path: 'services/market', component: MarketPageComponent},
       { path: 'services/residence', component: ResidencesPageComponent},

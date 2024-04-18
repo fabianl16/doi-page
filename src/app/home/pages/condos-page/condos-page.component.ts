@@ -12,19 +12,24 @@ export class CondosPageComponent implements OnInit{
 
   private imagesFromFolderService: ImagesFromFolderService = inject( ImagesFromFolderService );
 
-  public vistaMarImages:      string      [] = [];
+  public residence315Images:  string    [] = [];
   public alvarImages:         string      [] = [];
   public tramontiImages:      string      [] = [];
-  public campGolfImages:      string      [] = [];
+  public tramontiParadisoImages:      string      [] = [];
+
+
+
 
   ngOnInit(): void {
     this.setImages();
   }
 
   setImages(){
-    this.vistaMarImages     = this.imagesFromFolderService.getImagesUrl('vistaMar');
+    this.residence315Images   = this.imagesFromFolderService.getImagesUrl('residence315');
     this.alvarImages        = this.imagesFromFolderService.getImagesUrl('alvar');
     this.tramontiImages     = this.imagesFromFolderService.getImagesUrl('tramonti');
-    this.campGolfImages     = this.imagesFromFolderService.getImagesUrl('golfCamp');
+    this.tramontiParadisoImages = this.imagesFromFolderService.getImagesUrl('tramontiParadiso');
+
+
   }
 }

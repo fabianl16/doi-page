@@ -13,6 +13,27 @@
             <div class="row g-4">
                 <div class="col-lg-4 mx-auto service-item-top" >
                     <div class="img-box overflow-hidden">
+                        <img [src]="servicesImages[1]"  alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between p-4">
+                        <h3 class="text-truncate me-3 mb-0" >Desarrollo inmobiliario</h3>
+                        <!-- <a class="btn custom-btn flex-shrink-0" >
+                            <i class="pi pi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                    <ul class="list-group list-group-flush mb-5">
+                        <li class="list-group-item" 
+                            routerLink="residence">
+                            Vivienda residencial
+                        </li>
+                        <li class="list-group-item" 
+                            routerLink="development">
+                            Desarrollo Doi
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mx-auto service-item-top" >
+                    <div class="img-box overflow-hidden">
                         <img [src]="servicesImages[0]"  alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between p-4">
@@ -22,33 +43,29 @@
                         </a> -->
                     </div>
                     <ul class="list-group list-group-flush mb-5">
-                        <li class="list-group-item" (click)="scrollTo('urbanization')">Infraestructura, urbanización y campos deportivos</li>
-                        <li class="list-group-item" (click)="scrollTo('hotel')">Hotelería y tiempo compartido</li>
-                        <li class="list-group-item" (click)="scrollTo('market')">Mercado, centros y naves industriales</li>
+                        <li class="list-group-item" 
+                            routerLink="urbanization">
+                            Infraestructura, urbanización y campos deportivos
+                        </li>
+                        <li class="list-group-item" 
+                            routerLink="hotel">
+                            Hotelería y tiempo compartido
+                        </li>
+                        <li class="list-group-item" 
+                            routerLink="market">
+                            Mercado, centros y naves industriales
+                        </li>
                       </ul>
                 </div>
-                <div class="col-lg-4 mx-auto service-item-top" >
-                    <div class="img-box overflow-hidden">
-                        <img [src]="servicesImages[1]"  alt="">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between p-4">
-                        <h3 class="text-truncate me-3 mb-0" >Inmobiliario</h3>
-                        <!-- <a class="btn custom-btn flex-shrink-0" >
-                            <i class="pi pi-arrow-right"></i>
-                        </a> -->
-                    </div>
-                    <ul class="list-group list-group-flush mb-5">
-                        <li class="list-group-item" (click)="scrollTo('residences')">Vivienda residencial</li>
-                    </ul>
-                </div>
+
             </div>
         </div>
     </div>
 </section>
 
-<app-urbanization-page id="urbanization"></app-urbanization-page>
+<!-- <app-urbanization-page id="urbanization"></app-urbanization-page>
 <app-hotel-page id="hotel"></app-hotel-page>
 <app-market-page id="market"></app-market-page>
-<app-residences-page id="residences"></app-residences-page>
+<app-residences-page id="residences"></app-residences-page> -->
 
 
