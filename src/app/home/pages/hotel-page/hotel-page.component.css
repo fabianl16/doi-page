@@ -279,7 +279,7 @@ section .row{
   }
 
   .product_text h2::before {
-      margin-top: 29%;
+      margin-top: 30%;
   }
 
   .product_section_2 p {
@@ -300,7 +300,7 @@ section .row{
   }
   .img-flip{
       display: block;
-      padding-bottom: 140px;
+      /* padding-bottom: 140px; */
   }
 
 }
