@@ -68,9 +68,9 @@ export class ImagesFromFolderService {
       ],
       copala: [
         `assets/pictures/${ folderName }/1.jpg`,
-        `assets/pictures/${ folderName }/2.JPG`,
-        `assets/pictures/${ folderName }/3.JPG`,
-        `assets/pictures/${ folderName }/4.JPG`,
+        `assets/pictures/${ folderName }/2.jpg`,
+        `assets/pictures/${ folderName }/3.jpg`,
+        `assets/pictures/${ folderName }/4.jpg`,
         `assets/pictures/${ folderName }/5.gif`,
         `assets/pictures/${ folderName }/6.jpg`,
         `assets/pictures/${ folderName }/7.gif`,
